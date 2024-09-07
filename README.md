@@ -44,6 +44,9 @@ Here's how to get started with the CPU quantized GPT4All model checkpoint:
 Building on your machine ensures that **everything is optimized for your very
 CPU**.
 
+**Note:** It is important to use the particular ZIG version 11. ZIGs build system has been enhanced a lot since then, newer versions won't build this repo.
+In case you use a newer version, it can be a good idea to have all your zigs in a dir, and symlink to your needed version. I might update the repo or come up with a little zig version selector mini-project and link it here, depending on spare time ... 
+
 0. Make sure you have Zig 0.11.0 installed. Download from
    [here](https://ziglang.org/download/).
 1. **Optional:** Download the LLM model `ggml-gpt4all-j.bin` file from
